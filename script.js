@@ -40,7 +40,7 @@ const storyData = [
     portrait: "🔍 旁白",
     text: "和彥把頭髮染成茶色並從後面紮起來。他今年十九歲，一年半前高中畢業之後，便在一家塗飾公司工作，不過三個月前就辭職了。",
     filter: false,
-    clue: "👤 人物：和彥（死者朋友）"
+    clue: "👤 人物：死者朋友和彥"
   },
   {
     type: "dialogue",
