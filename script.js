@@ -1,7 +1,7 @@
 const storyData = [
   {
     type: "dialogue",
-    portrait: "📖 東野圭吾 \n 〈燃燒〉",
+    portrait: "東野圭吾 \n 〈燃燒〉",
     text: "歡迎來到東野圭吾短篇推理小說互動劇場。你將跟隨草薙警官與物理學教授湯川學，一同揭開離奇頭部起火案的真相。",
     filter: false
   },
