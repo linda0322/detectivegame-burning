@@ -9,811 +9,398 @@ const storyData = [
     type: "dialogue",
     portrait: "🔍 前情提要",
     text: "深夜的街道上，五名平時經常在此聚集製造噪音的青年突遭橫禍，其中一人的後腦勺無緣無故起火，引爆了自動售賣機旁的汽油桶，最後一死四傷。案情疑點重重，警方起初朝意外或「電漿現象」偵查。刑警草薙曾探訪鄰近深受噪音折磨的公寓住戶，包括 105 室的熱心青年金森，以及 205 室失語且熱愛小說音響的前島。 \n 草薙向物理學家朋友湯川教授求助，湯川在現場勘查後斷定此案並非電漿現象，而是有人利用特殊手段進行的兇案。此時，案發當晚曾目擊空中出現「紅線」的小女孩提供了關鍵線索，令湯川察覺到相關的物理端倪；與此同時，某人正獨自聽著遠方妹妹寄來的錄音帶，在寧靜中承受著揮之不去的恐懼。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "📚 語文知識",
-    text: "懸念 Suspense：不告訴你「他」是誰，以及為甚麼要重讀那本書。 \n懸念通常設置在文章的開首，安排一些未解決的疑難，提出問題或敍述令人困惑的事，暫時不給予答案，引起讀者的好奇心，吸引讀者繼續閱讀去尋求答案。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "今天晚上有五個人。引擎聲響徹夜空，彷彿是故意弄得那麼難聽。那些人又開始在這車站聚集了，像往常般起勁地大聲閑聊。這個地方每到深夜，基本就沒有車輛經過了。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "車站有一張長椅，還有一台賣飲料的自動售貨機。其中兩個人把頭髮染成茶色，另一個人把褲子滑到腰部以下，其餘兩個人沒甚麼搶眼的特徵，只是有個人把頭髮留到了齊肩長。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "他離開窗邊，把小說放到桌子上，走到了電話旁。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "和彥把頭髮染成茶色並從後面紮起來。他今年十九歲，一年半前高中畢業之後，便在一家塗飾公司工作，不過三個月前就辭職了。",
     filter: false,
-    clue: "👤 人物：死者朋友和彥"
+    clue: "👤 人物：和彥（死者朋友）\n 💀 死者：山下 \n ⚠️ 死因：頭部突然起火 \n ⚠️ 線索：現場有奇怪的塑膠箱子，入面裝着啤酒瓶，上面還有破報紙包裹着的塑膠桶，裡面裝着汽油 \n ⚠️ 線索：附近居民對死傷者經常在深夜製造噪音而憤怨 \n ⚠️ 線索：警察正在往「電漿現象」的方向調查（已證實不是） \n 👤 人物：105 號房的年輕房客金森 \n ⚠️ 線索：案發時聲稱自己在看電視 \n ⚠️ 線索：和 205 號的前島相熟 \n 🔍 物品：玻璃餐桌（105 號房）\n 🔍 物品：無線電話（105 號房） \n 🔍 物品：錄像帶（105 號房） \n 🔍 物品：阻隔噪音和阻擋窗户的書架（105 號房）\n 🔍 物品：和電視機相連的耳機（105 號房）\n 👤 人物：205 號房的年輕房客前島 \n ⚠️ 線索：案發時聲稱自己在看電視 \n ⚠️ 線索：無法說話 \n 🔍 物品：能看到事發現場的窗户（205 號房）\n 🔍 物品：超豪華音響（205 號房）\n 🔍 物品：大量盒式磁帶（205 號房） \n 🔍 物品：大量小說（205 號房）\n 👤 人物：看到「紅線」的小女孩 \n 👤 人物：不知道是誰的妹妹，哥哥會為她錄小說",
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "這一年多的時間裡，賺的錢都用來打遊戲和買二手電單車了。父母認為他不務正業，難免愛嘮叨幾句，令他非常厭煩。因為不想和父母碰面，他才每天在外徘徊，直至深夜。",
+    text: "完成了一天的工作，正要關掉總開關時，那個男人終於出現了。不知道他是何時從哪裡進來，所以當他開口說「打擾了」的時候，前島嚇得心臟都快要停止跳動了。",
     filter: false
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "他站在自動售貨機前，按下按鈕，可樂咕咚一聲滾落下來。取出可樂之後，不經意地看了一眼售貨機旁，發現那裡居然有一個從未見過的東西——堆放着四個裝着啤酒瓶的塑膠箱子，上面還有一個像運動背包一樣大的，由破報紙包裹的方形物件。",
+    text: "前島用警惕的眼神上下打量他。這是第一次有陌生人來到工廠——包括業主在內也只有三個人的小型工廠，名為時田加工站，時田就是廠長的名字。",
     filter: false
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "和彥覺得很奇怪，但沒有太上心。他打開了可樂，便和朋友閑談起來。對他而言，這四個人也算不上真正的朋友，但能一起玩樂就已足夠。",
+    text: "今天，廠長要和老客戶談生意，所以早早出了門，唯一的同事也感冒休息了。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👤 男子",
+    text: "（聲音冰冷且毫無感情）我聽說你們這裡能加工精密的器件，所以有事想拜託你們。",
     filter: false
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "留長髮的朋友叫山下，是個高傲自大的傢伙，喜歡邊說話邊用手向後攏頭髮。",
+    text: "前島不知道該如何接待這種直接上門的顧客，束手無策。",
     filter: false
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "和彥站在自己的電單車旁邊，聽他自吹自擂，其餘三個人有兩個坐在長椅上，剩下一個則跨坐在電單車上。",
+    text: "但他一直沒有反應，男子也一直站在那裡盯着他，如果不回答的話，那人是不會離開的。",
     filter: false
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "山下像往常一樣，說話前用雙手梳理一下前額的頭髮。突然，他瞪大眼睛，意想不到的事情發生了——他的頭後躥出一團火，瞬間就吞噬了他整個頭部，還沒等他叫出聲，他就倒下了。其他人目瞪口呆地目睹了這慢鏡頭一般的情景。",
+    text: "他只好無奈地掏出工作日誌，在今天那頁寫上「我是啞巴，不會說話」遞給那個男人。但那個男子對此卻沒有任何評價。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👤 男子",
+    text: "（表情毫無變化）我打算過幾天才正式訂貨。不過我想確認一下，你們能否做到我要求的那樣。實際上加工的人是你嗎？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "前島邊點頭邊指指自己，然後豎起了兩根手指頭。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👤 男子",
+    text: "啊，還有一個人？你在的話就行啦。我可以看看你們這裏的加工設備嗎？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "前島點了點頭，因為曾見到廠長也帶顧客參觀過機器，看了也不會有甚麼麻煩。男子慢慢走到他旁邊的機器旁。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👤 男子",
+    text: "兩台放電加工機，兩台電線切割機，都是M公司產的，大都還貼著國家標準合格證。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "前島趕緊在工作日誌裡寫：「機器已經很老舊了，無法進行複雜的加工。」",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "男子微微一笑，或許是覺得他這種特意拒絕的謙虛很可笑。但從前島的角度來講，事先講妥這些事情並不是壞事，隨便接活最終麻煩的是自己。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "工廠裡的全部設備都是廠長從原來的重機製造廠廉價購買的處理品，早已超過使用期限，但由於它們還能靈活地加工零件，所以時田加工站的上上下下都視之為珍寶。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👤 男子",
+    text: "（看着電線切割機）線是0.4毫米的嗎？",
     filter: false,
-    clue: "💀 死者：山下"
+    clue: "🔍 物品：電線切割機",
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "不過幾秒鐘，通過右眼角的餘光，和彥發現那個報紙包裹的東西正在燃燒。伴隨巨大的爆炸聲，火焰湧向了他的身體⋯⋯",
-    filter: false,
-    clue: "⚠️ 死因：頭部突然起火"
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "搜查科的警察草薙開着愛車趕到事故現場的時候，火已經熄滅了，消防隊也準備離開，連看熱鬧的人也紛紛散去。",
+    text: "前島點了點頭，很驚訝這個男子竟如此懂行。",
     filter: false
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "草薙看見一個穿着紅色運動衫的小女孩也正在走來，看起來也就剛上小學，不知為甚麼一直仰著頭往前走，看起來像在尋找甚麼東西。",
+    text: "電線切割機是一種使用電能的弓形鋸（bow saw），利用電路中產生的細微電流將被加工物熔斷。因為可以將放電電流集中，所以加工精度能夠精確到微米。",
     filter: false
   },
   {
     type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "小朋友，這樣走路很危險啊！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "女孩好像被甚麼絆倒了，大哭起來。草薙趕緊上前扶起女孩，發現女孩的膝蓋流血了。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👩🏻 女人",
-    text: "不是說了讓你和我一起走嘛！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙（心想）",
-    text: "為甚麼大半夜跑到火災現場看熱鬧？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👧🏻 女孩",
-    text: "我真的看到上面有一條紅線呀，真的有呀！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👩🏻 女人",
-    text: "哪有這種東西！哎呀！衣服弄得這麼髒！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👧🏻 女孩",
-    text: "我看見了呀！紅色的線！很長很長的線，真的有！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙（心想）",
-    text: "紅色的線到底是甚麼呢？",
-    filter: false,
-    clue: "⚠️ 線索：看到「紅線」的小女孩"
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "到達事故現場的時候，完全被燒黑的馬路中央站着幾個男子，其中一位就是草薙的上司間宮警官。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "來晚了，對不起！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 間宮警官",
-    text: "辛苦了！（點了點頭）",
+    portrait: "👤 男子",
+    text: "能這樣加工嗎？可以做到嗎？",
     filter: false
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "間宮身材矮胖，脖子也很短，雖然看上去挺敦厚老實，目光卻很利落。不過，與警察的身分相比，他看起來更像一名普通上班族。",
+    text: "男子從上衣口袋裡掏出一張紙，在方格繪圖紙上用複雜的曲線繪製出零件的形狀。從備註和指示來看，這個男子絕對不是外行，那是非常精密的零件，特別是稜角部分的加工，要求實在太嚴格了。前島側著頭用手指了指圖紙那個複雜的部位。",
     filter: false
   },
   {
     type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "縱火嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 間宮警官",
-    text: "現在說不準。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "（抽動了一下鼻子）有汽油味。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 間宮警官",
-    text: "好像是放在塑膠桶裡的東西燒着了。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "塑膠桶？為甚麼這裡會有那樣的東西呢？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 間宮警官",
-    text: "不知道，你看看那個！（指着滾到路邊的一個物體）",
+    portrait: "👤 男子",
+    text: "那裡的確比較複雜，做不到的話，能達到甚麼程度就甚麼程度，盡力就行。",
     filter: false
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "那的確像是用來裝油的塑膠桶，以側面為中心的大部分都被燒熔了，已無法辨認原形。",
-    filter: false,
-    clue: "⚠️ 線索：現場有奇怪的塑膠箱子，入面裝着啤酒瓶，上面還有破報紙包裹着的塑膠桶，裡面裝着汽油"
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 間宮警官",
-    text: "已經向被害者詢問了事故原因，但他們卻完全不知道發生了甚麼事。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "被害者是甚麼人？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 間宮警官",
-    text: "不滿二十歲的五個男孩。死了一個。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "正在做筆錄的草薙厭惡地記錄下了這些內容。雖說死人是常有的事，但與死亡事件打交道絕不會有甚麼好心情。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 間宮警官",
-    text: "你能在附近走訪一下嗎？有幾家的屋裡還亮著燈，你可以去那裡看一下。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "草薙馬上就注意到轉角的一座公寓裡，有幾家的確還亮著燈。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "公寓是一座老式的兩層建築，幾戶大門並排向著馬路。樓梯在與馬路相反的南側，只有側面的房間才有窗戶，能看到事故現場的也只有東北角的房間了。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "草薙走近公寓的時候，恰好遇見一個二十出頭的高個子正要進一樓東北角的房間，門牌是105號。男人穿着灰色的工作服，像是剛去過便利店的樣子，手裡還提着白袋子。他從口袋裡拿出鑰匙，剛要往門的鑰匙孔裡插。",
-    filter: false,
-    clue: "👤 人物：105 號房的年輕房客金森"
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "打擾一下。（拿出證件）剛才那邊發生了火災事故，你知道嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "哦，知道啊，真是太可怕了！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "當時您在屋裡嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "在。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "事故發生前有甚麼變化嗎？比如聽到奇怪的聲音，或者看見甚麼？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "怎麼說呢？我當時正在看電視，但也知道那些傢伙好像發生了騷亂。",
-    filter: false,
-    clue: "⚠️ 線索：案發時，金森聲稱自己在看電視。"
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "那些傢伙是指那幾個騎電單車的年輕人嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "是。每到周末他們總會來這裏，也不知道他們是從哪來的，凌晨兩三點鐘還是鬧哄哄的。（輕咬了一下嘴唇，有點憤怨）這附近原本是個僻靜的好地方。",
-    filter: false,
-    clue: "⚠️ 線索：附近居民對死傷者經常在深夜製造噪音而憤怨"
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "誰留意到這事了嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "誰會呢？在現在的日本，沒人會費那個心思吧！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "你的房間可以看到現場嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "（含糊不清）應該看得見吧⋯⋯本來⋯⋯你進去看看就明白了！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "草薙朝屋內張望了一眼，這是間不足八塊榻榻米大的一居室，只有個小廚房、一張床、一個書架和一張玻璃餐桌。",
-    filter: false,
-    clue: "🔍 物品：玻璃餐桌（105 號房）"
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "桌上放了個無線電話，恐怕很少會用到它。書架上堆放的錄像帶和其他生活用品的數量遠遠超過書的數量。",
-    filter: false,
-    clue: "🔍 物品：無線電話（105 號房）\n🔍 物品：錄像帶（105 號房）"
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "窗戶在哪兒？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "書架後面。沒有地方放書架了，沒辦法只好把窗戶堵上。但幸虧它了，正好能多少阻隔一下外面的噪音。住在附近的人全都這麼做的。",
-    filter: false,
-    clue: "🔍 物品：阻隔噪音和阻擋窗户的書架（105 號房）"
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "草薙的目光落在和電視機相連的耳機上。可能因為噪音太大，男人才用這個來看電視吧，可這樣一來，有甚麼異常聲響的話，也不太可能聽得見啊。",
-    filter: false,
-    clue: "🔍 物品：和電視機相連的耳機（105 號房）"
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "你也要去205號房間調查嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "是在你樓上吧！嗯，我正有這個打算。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "這個嘛，樓上住着個叫前島的傢伙，他不能說話。我和你一起去怎麼樣？那傢伙和我關係相當好！",
-    filter: false,
-    clue: "👤 人物：205 號房的年輕房客前島"
-  },
-  {
-    type: "quiz",
-    question: "金森的性格如何？",
-    options: [
-      "熱心",
-      "害羞",
-      "多疑",
-      "溫柔"
-    ],
-    answer: 0,
-    points: 10,
-    explanation: "答對了！金森表現得十分熱心，主動帶草薙上樓調查。"
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "金森邊爬著扶手生鏽的樓梯，邊和草薙說道。敲房門，裏面便馬上有了回應。門縫裡可以看到一張年輕而消瘦的臉，看起來比金森還年輕，下巴很尖，臉色蒼白。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "前島看到金森，馬上顯出比較放心的樣子，但看着草薙的目光還是顯得很戒備。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "前島，他是刑警，是來調查剛才發生的事故的。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "草薙向他出示警察證件，前島遲疑了一下，然後將門敞開。房間的布局也和金森的一樣，只是窗戶並沒有像金森的房間那樣被堵上。首先映入草薙眼簾的是與這間狹小房間極不相稱的超豪華音響，還有堆放在床上的大量盒式磁帶。牆邊堆滿相當多的小說，數量之多令草薙大吃一驚。",
-    filter: false,
-    clue: "🔍 物品：能看到事發現場的窗户（205 號房）\n🔍 物品：超豪華音響（205 號房）\n🔍 物品：大量盒式磁帶（205 號房）\n🔍 物品：大量小說（205 號房）"
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "草薙心想，前島應該是一個喜愛讀書和聽音樂的青年，這種文藝青年應該對那些不顧別人感受、肆意製造噪音的傢伙們恨之入骨了吧。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "剛才發生火災的時候，你在哪裡？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "前島毫無表情地用手指了指床，意思好像是說在房間裡。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "在做甚麼？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "前島身穿開領短袖襯衫，床也還沒鋪，應該是還沒有睡覺吧。他轉身指了一下放在窗邊的電視機。",
-    filter: false,
-    clue: "⚠️ 線索：案發時，前島聲稱自己在看電視。"
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 金森",
-    text: "看樣子是在看電視。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "事故發生之前，你沒聽到甚麼聲音，或者從窗戶看到外面發生了甚麼嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "前島兩手插進運動衫的口袋裡，冷漠地搖了搖頭。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "那能允許我進去一下嗎？我想看一著窗外的狀況。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "前島點了點頭，手向窗戶的方向伸了一下，好像是說「請」。窗戶的正下方是一條南北走向的馬路，來往車輛很少，這個時間更沒有一輛車經過。草薙回想起剛才金森說過，這裏本是個僻靜的好地方。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "左下方就可以看到發生事故的T字路口，現在還有幾個搜查人員在那裡來回巡視，正在尋找線索。草薙目光不經意地落在旁邊的揚聲器上，上面放著一本書，是《火星編年史》。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "這本書很難讀懂的。我很久以前打算讀來着，但很受挫，大概我不是那種適合讀書的人。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "本以為會招來嘲笑，誰知金森沒有笑的意思，前島也只是默默看著窗外。即使來這裏搜查，也弄不到什麼線索，草薙立刻就下了這個判斷。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "想起甚麼的話，希望能和我聯繫。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "怪事發生後的第三天，草薙去了帝都大學物理系研究室。房裡沒有開燈，一片漆黑。明明是白天，不開燈也應該很明亮，或許是拉上了遮光窗簾的緣故。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "湯川，你在哪？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "草薙呼喊的同時，身旁傳來機器的轉動聲。那聲音和電單車聲很像。就在他意識到這聲音是源自微波爐的同時，眼前忽然出現了火苗。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "仔細一看，微波爐內部的燈泡正在發光，但發光方式與普通燈泡不同，燈芯一直在搖晃。燈光漸漸減弱，最終消失。這個時候，窗簾被拉開了。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "用這麼陰暗的光線招待維持治安而日夜操勞的警官，實在是說不過去啊！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "穿著白大褂的湯川正在拉窗簾，他身材高挑，帶着黑框眼鏡，眼睛閃爍著智慧的光芒。他和學生時代幾乎沒有甚麼兩樣，連髮型都和以前一模一樣。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙（苦笑）",
-    text: "你都多大了，還搞惡作劇！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "我是想用剛才的方式來表達想幫助你的一片苦心。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙（打算摸那微波爐）",
-    text: "你這麼說，到底是什麼意思呢？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "住手！它的電源還露在外面呢！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "湯川慌忙把插頭拔出來，微波爐的背板被卸下，還安上一個草薙不知為何物的東西。湯川打開爐門，取出放在金屬煙灰缸裡的燈泡。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "看上去只是普通的燈泡啊！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "是啊，只不過是燈泡。利用微波爐電磁波所產生的感應電流，燈泡內部的氬氣實現了電漿化，從而發光。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "電漿？這個就是電漿嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "現在你應該明白剛才我所說的意思了吧？你應該就是想了解電漿的問題，才特意跑到這裏來的吧！那樁燒死人的事件在公眾中反響很大。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "湯川站起身，開始燒水沖咖啡，同一時間草薙掏出了筆記本，重新整理這個案件的概要。警方還沒能確定這件事是否稱得上是案件，或許只是場意外而已。",
-    filter: false,
-    clue: "⚠️ 線索：警察正在往「電漿現象」的方向調查"
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "你是怎麼想的呢？從你給我演示的那個實驗來看，你也認為是電漿嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "甚麼資料都沒有，無法做任何假設，問題的關鍵是從火災現場發現了甚麼。如果不仔細調查現場，根本就無法推測原因，就連消防隊的那些人也會這麼說的。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "火災現場只發現了一個塑膠桶，裡面沒有發現任何裝置。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "有一個裝滿汽油的塑膠桶，附近又有幾個沒有成人思辨能力的青少年。如果其中有人對塑膠桶放火，不也是一種合理的猜測嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "那他們還做好了被燒成重傷的準備？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "不清楚是否故意縱火，安放塑膠桶的也可能另有其人。年輕人或許不知道有汽油，不過也沒有證據能證明不是他們所為。他們可能都吸煙吧，那就應該有打火機。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "真受不了，你和我們的科長一樣。他說就是那些淘氣包放火惹的禍，可能這就是事故的真正原因。我就給你透露點新情報。這是對其中一個青年問話時的錄音。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "儘管和彥張嘴說話很困難，但頭腦很清醒。錄音中和彥堅持表示是良介後腦勺的頭髮裡突然躥出火苗，然後才被火焰吞沒，並非塑膠桶先着火。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "屍體呈甚麼狀態？只有頭部被燒了嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "很遺憾，他倒下之後好像就被火焰吞噬了，全身都被燒焦，無法判斷是從哪裡先起火的。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "我們去現場看看吧！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "即使在白天，事故現場T字路口也沒有多少車經過。那台飲料自動售貨機的下半部也被燒黑了，它還原封不動地放在那裡，上面貼了張「故障」的紙條。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "（站到距離自動售貨機兩米左右的地方）根據青年的證言，死者山下所站的位置就在這裡。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "死者是面朝哪個方向站着的？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "面朝自動售貨機吧。其他幾個人把他圍在中間。",
+    text: "男子沿著牆邊仔細環視四周，忽然發現放在架子托盤裡的零件。他用手拿着一個零件，認真端詳起來。那是某家公司定製的汽車零件樣品。前島指着架子托盤，做了個用手觸摸的動作，然後在胸前擺了個叉形。男子見狀，馬上明白了他想要說的話。",
     filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "這和電漿無關。如果是塑膠桶先起火，再燒到青年頭上的話，臉應該先被燒壞吧？因為死者是朝着自動售貨機站立的。正因為燃燒的位置是後腦勺，可以斷定火是從頭髮開始燃燒的！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👮🏼‍♂️ 草薙",
-    text: "能起火，就一定是受熱了。究竟是甚麼傳向青年的頭和塑膠桶呢？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "去咖啡店聊天之前，你能開車在這附近慢慢轉轉嗎？我想看一下街道的樣子。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "正當他們從事故現場開始徑直向南行駛時，視線裡突然出現一個小女孩——就是當天跌倒的那個小女孩，還穿着那件紅色運動衫，還是一直昂首盯着上面看。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "趕快回去剛才孩子那裡！沒時間給你解釋！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "👧🏻 小女孩",
-    text: "現在看不見了。但發生火災那天是可以看見的。我從二樓窗戶向外看就看到了，真的是有一條筆直筆直的紅線，在叔叔頭部的位置！",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "他閉上眼睛。自從那天晚上，這條街就恢復了往日的寧靜。但諷刺的是，如今的他卻受不了這種寂靜，像掉入無底深淵一般，孤單和恐懼向他襲來。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "📚 語文知識",
-    text: "插敍：暫時中斷記敘線索，插入一些與主要情節相關的內容，用作豐富情節、說明因果或深化主題。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "完成了一天的工作，正要關掉總開關時，那個男人終於出現了。前島嚇得心臟都快要停止跳動了——陌生訪客走進名為時田加工站的小型工廠。",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🧑🏻 神秘男子",
-    text: "我聽說你們這裡能加工精密的器件，所以有事想拜託你們。我想確認一下，你們能否做到我要求的那樣。實際上加工的人是你嗎？",
-    filter: false
-  },
-  {
-    type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "男子看着電線切割機，開口問：「線是0.4毫米的嗎？」前島點了點頭，很驚訝這個男子竟如此懂行。",
-    filter: false,
-    clue: "🔍 物品：電線切割機"
   },
   {
     type: "dialogue",
-    portrait: "🔍 旁白",
-    text: "男子從上衣口袋裡掏出一張紙，在方格繪圖紙上用複雜的曲線繪製出零件的形狀。男子注意到架子托盤裡的零件，慌忙把手縮回。",
+    portrait: "👤 男子",
+    text: "對不起，太失禮了！直接用手摸金屬製品是被禁止的，手上的鹽分會導致零件生鏽，是吧？",
     filter: false,
     clue: "🔍 物品：不知道有甚麼特別的金屬零件"
   },
   {
     type: "dialogue",
-    portrait: "🧑🏻 神秘男子",
-    text: "事實上，我還有一件事想請教你。使用這個放電加工機或者電路切割機曾製造出過什麼特別的現象嗎？會不會發生電漿現象？",
+    portrait: "🔍 旁白",
+    text: "男子慌忙把零件放回原處。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👤 男子",
+    text: "怎麼樣？能請你們幫忙加工嗎？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "前島指了指圖紙上的幾個部位，然後用拇指和食指在眼前比劃出3厘米左右的距離。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👤 男子",
+    text: "啊，放寬這幾處的要求，還是可以加工的，你是這個意思嗎？我今天先把圖紙拿回去，明天改好了再給你拿來。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "前島點了點頭，把圖紙交給了那個男子。那個男子接過圖紙之後並沒有馬上離開，而是一直注視牆邊的儲氣瓶，那裡存儲着很多種氣體。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👤 男子",
+    text: "事實上，我還有一件事想請教你。我的問題可能有點奇怪。使用這個放電加工機或者電路切割機曾製造出過什麼特別的現象嗎？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "這真是個奇怪的問題，前島只是茫然地搖搖頭。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👤 男子",
+    text: "會不會發生電漿現象？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "前島驚訝地瞪大了眼睛。",
     filter: false
   },
   {
     type: "quiz",
-    question: "造訪工廠詢問電漿現象的神秘男子是誰？",
+    portrait: "👤 男子",
+    text: "放電現象和電漿現象之間有密切的聯繫，所以我才會問你這樣的問題的。",
+    question: "男子是誰？",
     options: [
-      "普通顧客",
       "草薙警官",
+      "普通顧客",
       "湯川教授",
       "兇手"
     ],
     answer: 2,
     points: 10,
-    explanation: "答對了！這位神祕男子正是物理學教授湯川學。"
+    explanation: "答對了！"
   },
   {
     type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "我是物理學教授，曾經和朋友探討過那個案件。所以，請人加工的時候，順便問了些問題作為參考。（遞出名片）",
+    portrait: "🔍 旁白",
+    text: "前島又在原來的那個工作日誌本上寫道：「是關於花店路的事故嗎？」",
     filter: false
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "湯川作出預言後的第三天，那個發生事故的地方再次出現了那個怪現象！情景與第一次案件極其相似，但這次沒有受害者，只有埋伏在附近的草薙警官。",
+    text: "男子苦笑了一下，然後把手放進了上衣的口袋，從中掏出了一張名片。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "我是物理學教授，曾經和朋友探討過那個案件。所以，請人加工的時候，順便問了些問題作為參考。",
     filter: false
   },
   {
     type: "dialogue",
     portrait: "🔍 旁白",
-    text: "草薙飛速向時田加工站跑去，並在回程時跟蹤從205號房間走出來的男子，將其當場制止！",
+    text: "前島點了點頭，然後在工作日誌寫下：「從來沒有出現過電漿現象。」",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "（略顯失望）打擾你工作了，真抱歉。等我重新研究一下加工精密度的問題再來。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "前島對湯川能把自己當做正常人來對待這件事很高興。物理學教授推開了百葉窗旁邊的大門，離開了。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "湯川警覺地向四周環視了一下，確認沒有被人看見之後，才坐在副駕駛的位置上。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "情況怎麼樣？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "不知道，快開車，我們趕快離開這裏。如果在這裏磨蹭被前島發現的話，一切都前功盡棄了。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "你是怎麼注意到那家工廠的？如果你發現了那個怪現象的真相，可一定要告訴我啊。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "我覺得與其是我告訴你，還不如你親自用眼睛去看更好，古人云「百聞不如一見」嘛！如果我分析正確的話，恐怕你近期就可以再次見到那種怪現象了。那時我會告訴你我把目標鎖定在那家工廠的全部經過。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "那天夜幕降臨，湯川就打來了電話，說想和他去個地方，就是那個時田加工站。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "時田加工站離案發現場很近。離事故現場20米遠的地方有個小胡同，從那裡向左拐，路的盡頭就是這家工廠，而胡同入口處的正對面就是這家工廠的窗戶。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "希望你能記住這個地方。不久，就會再次發生那種怪現象的，那時，你一定要進行緊急調查。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "怎麼還能發生那樣的事呢？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "說完，兩個人一起向工廠走去。快要到達工廠的時候，草薙突然藏了起來，因為他看見工廠裡有一個人，就是前幾天他看到那個不會說話的青年。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "那個人就住在案發現場附近嗎？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "特別近。從他家的窗戶往左下角看，就可以看到事故現場。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "這樣啊！",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "我們去哪？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "我一個人去，你在的話就麻煩了。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "你想做甚麼？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "當然是設局。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "湯川作出預言後的第三天，那個發生事故的地方再次出現了那個怪現象。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "情景與第一次案件極其相似：放在自動售貨機旁邊的瓦楞紙板突然起火。但是這次沒有受害者，只有目擊者，就是三天以來一直埋伏在附近的警官草薙。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "草薙起初不知道發生了甚麼事，當他意識到這就是上次的怪現象之後，飛速地向那家工廠跑去。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "進門後發現，樓梯上有一個他以前沒有見過的東西，直覺告訴他這個東西和怪現象的發生有必然的聯繫。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "草薙往回走，回到上次去過的那間公寓，正好看到有個男子從二樓的205號房間走了出來。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "草薙立刻藏起來，那個男子恰好朝草薙的方向走去，草薙在後面跟蹤他，心裏很清楚他要去的地方。",
     filter: false
   },
   {
     type: "quiz",
-    question: "被草薙警官當場抓獲的可疑男子是誰？",
+    portrait: "🔍 旁白",
+    text: "男子走進時田加工站，正要隱藏犯罪證據的時候，被草薙喝聲制止。男子愣在原地，慢慢轉過身來，臉色慘白，兩眼血紅。",
+    filter: false,
+    question: "可疑男子是誰？",
     options: [
       "湯川教授",
       "青年前島",
@@ -828,51 +415,318 @@ const storyData = [
   {
     type: "dialogue",
     portrait: "👮🏼‍♂️ 草薙",
-    text: "怎麼會是你？我還是沒有想到會是激光。",
+    text: "怎麼會是你？",
     filter: false
   },
   {
     type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "準確地說，它是台二氧化碳激光。利用金屬鏡子反射激光，並透過氦氖激光（即小女孩看到的紅線）來調整射出路線，從而精準加熱山下的後腦勺與塑膠桶內的汽油！",
+    portrait: "🔍 旁白",
+    text: "站在草薙面前的青年並不是前島，而是本應住在105號房間的金森。",
     filter: false
   },
   {
     type: "dialogue",
-    portrait: "👨🏻‍🔬 湯川教授",
-    text: "金森借用前島二樓視野良好的房間，利用無線電話遠端遙控工廠的激光裝置。本意只是想點燃汽油惡作劇嚇唬噪音擾民的年輕人，卻不料激光意外擊中了山下的後腦勺。",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "我還是沒有想到會是激光。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "準確地說，它是台二氧化碳（carbon dioxide）激光。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "激光也分很多種嗎？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "具有代表性的是二氧化碳激光、YAG激光和玻璃激光。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "經常聽到激光這個詞，但沒有想到它就實實在在地存在於我們周圍。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "激光也被應用於CD播放器中。如果激光強度達到可以將人燒傷的程度的話，那場面就像科幻電影的鏡頭一樣。工廠裡不能使用激光槍，而是使用它的一種替代品。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "時田加工站裡的那台激光裝置是一台像拖拉機那麼大的箱子狀機器，據說是廠長從以前工作的公司裡低價購買來的，用於切斷和熔接鋼板。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "為了製造出輸出功率（power）較大的激光，必須讓包含二氧化碳在內的激光束（laser beam）以高速度輸出，並且一定要保證能平穩進行高壓放電（high-voltage discharge），所以所需裝置的規模自然就很大。像拖拉機那麼大的激光裝置所能切割的鋼板，也只是幾毫米厚而已。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "小說裡，James Bond 曾用手槍大小的激光槍切割裝甲車的車身。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "再過一百年，那也不會實現。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "你是甚麼時候察覺到是激光的？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "我一聽到是從青年的後腦開始燃燒，就猜想可能是跟激光有關。不過真正能確定還是因為紅線。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "紅線到底是甚麼？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "沒甚麼神秘的，就是氦氖激光（helium-neon laser）。",
+    filter: false
+  },
+{
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "又是激光？！！",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "別做出那麼不耐煩的表情。你很熟悉的，歌手在演唱會就常常使用激光，原理是一樣的。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "對於激光裝置而言，調整激光的線路是非常重要的，不然就不會輸出所需要的功率。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "起先不知道激光是從甚麼方向如何發射的，在實際調節中，使用高輸出功率的激光束是特別危險的，調節方向時只能使用無害的激光，即氦氖激光，就是所謂紅線。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "據我推理，罪犯為了調節二氧化碳激光的射出路線，事先曾經嘗試發射氦氖激光，我估計那附近一定有個能發射激光的裝置，因此我就去找找看，很意外地發現了那家工廠。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "那間屋子裡面沒有激光設備，但在那個架子托盤上，卻放了一個只能用激光才能切斷的零件。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "實際上，在零件的橫切面（cross-section）上，可以看見細小的紋理，那間房子還保管了生成激光束所需的碳酸氣（carbon dioxide）、氫氣（hydrogen）和氮氣（nitrogen）儲氣瓶。因此我馬上意識到，其他房間內一定有二氧化碳激光裝置。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "第二樁案件發生的時候，警察趕到工廠時發現，窗戶正開着，而激光裝置就在窗戶的正對面。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "不是說激光是直線傳播的嗎？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "所以要使用鏡子啊。從工廠直接射出激光的話，可能會擊中拐彎處的電線杆或其他物體。如果安放表面鍍了金的專用鏡子來調整位置的話，激光可以射到T字路口的，因為金幾乎能百分百反射激光。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "紅線是用來調節角度？那為甚麼時而看得見，時而看不見呢？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "一般來講，激光無法用肉眼看見，但一旦碰上甚麼物質（substance），我們就可以看到它的反射光。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "比如，氦氖激光遇到粉塵飛舞的情況下，會呈現出一條紅線。女孩看見紅線的時候，很可能就是有粉塵或者其他物質飛舞的時候。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "另外一名技工才是罪犯的確出乎意料。我還猜想那個叫前島的青年一定是罪犯，因為我聽你說過，他就住在事故現場附近。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "他也住在這棟公寓裡。我很後悔當初自己為甚麼沒有問他們兩人的工作單位。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "幸虧前島把湯川說的話都轉告給金森，我們的圈套才得以成功。如果有一步走錯的話，那麼處心積慮設的局就毫無意義了。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "我還是有一件百思不得其解的事。為甚麼那兩個人會掉換房間？本來不是金森住一樓，前島住二樓嗎？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "我盤問前島案發時在哪裡時，前島指了指床，我將其理解為他正待在屋子裡。事實上，前島想說的是他在樓下的房間。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "為甚麼？難道因為二樓可以向下看到案發現場？所以當天金森以什麼合理理由借用了前島的房間？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "不，這兩人本來就會頻繁換房間。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "金森參加了志願者活動，工作內容是把圖書館借來的書朗讀出來錄製成磁帶，送給視力有問題的人。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "金森的妹妹看不見東西，或許就是這個原因讓他想做這項工作。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "金森自己買了個專用的麥克風，但沒有錄音機，所以每次錄音都會借用前島的音響，並待在前島的屋子裡。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "即使是在金森的房間看電視，前島也會插上耳機，防止任何雜音錄進磁帶。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "金森借用前島的房間還有一個好處，就是房間裡有大量的書。金森錄的書絕大部分都是前島的。事情發生當晚，他就在讀《火星編年史》這本書。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "🔍 旁白",
+    text: "所以金森的犯案動機是甚麼？（不顯示答案，答對手動加 500 分）",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "那些騎電單車的青年製造的噪音，導致金森最近根本無法認真錄音，好不容易能錄音了，卻在關鍵時到傳來了引擎的聲音。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "他因此怒火中燒，甚至動了殺意？",
     filter: false
   },
   {
     type: "quiz",
-    question: "金森的行為最終構成甚麼性質？",
+    question: "是謀殺還是誤殺？",
     options: [
       "謀殺",
       "誤殺"
     ],
     answer: 1,
     points: 10,
-    explanation: "答對了！金森並非蓄意殺人，而是過失導致的誤殺。"
+    explanation: "答對了！"
   },
-  {
+{
     type: "dialogue",
-    portrait: "📚 語文知識",
-    text: "伏筆 Foreshadowing：對作品中將要出現的人物或事件預先作出提示或暗示，前後呼應，令結構嚴謹，情節合理。讀者看到結局時會恍然明白前面寫一些看似無關緊要的內容是為劇情服務的。",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "不，他說他並不想殺人，只是想點燃塑膠桶裡的汽油嚇嚇他們罷了。但不巧的是，塑膠桶前面站了人，激光恰好擊中他的後腦勺，導致了這樣的悲劇。恐怕這就是山下當場斃命的原因。",
     filter: false
   },
   {
-    type: "writing",
-    words: [
-      { term: "懸念", remarks: "Suspense"},
-      { term: "插敍", remarks: "Flashback"},
-      { term: "伏筆", remarks: "Foreshadowing"},
-      { term: "電漿", remarks: "Plasma"}
-    ],
-    pointsPerWord: 150
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "山下倒地之後，激光才像預想的那樣點燃了塑膠桶，是這樣嗎？金森是遠距離操控激光裝置的嗎？",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "據說是使用電話！電話的按鍵聲以某種形式傳送到與之相連的電腦中，電腦的程序就會被啟動。前島的房間有無線電話的分機，對於根本不能說話的前島而言，電話只不過是個添麻煩的東西，所以那是金森設置的。金森利用無線電話遠端遙控裝置，但無法靈活準確地操作，當他知道有人站在光軸之中時，已經晚了。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👨🏻‍🔬 湯川",
+    text: "真不幸啊！之前是由於噪音無法認真錄音，現在是由於殺人導致內心不安、聲音顫抖，也無法好好錄音。",
+    filter: false
+  },
+  {
+    type: "dialogue",
+    portrait: "👮🏼‍♂️ 草薙",
+    text: "金森說有件事要拜託我，叫給他本童話書讓他錄音。他說現在覺得自己又能好好錄音了。",
+    filter: false
+  },
+  
+  {
+    type: "dialogue",
+    portrait: "📚 語文知識",
+    text: "伏筆 Foreshadowing：對作品中將要出現的人物或事件預先作出提示或暗示，前後呼應，令結構嚴謹，情節合理。讀者看到結局時會恍然明白前面寫一些看似無關緊要的內容是為劇情服務的。 \n 俄國作家契訶夫：前面寫到客廳的牆上掛着一支獵槍，那麼獵槍在最後一定要射出子彈。 \n  \n  這篇推理小說有伏筆嗎？作者有沒有經常有意無意地提及甚麼物件？（口頭回答，手動加 200 分）",
+    filter: false
   },
   {
     type: "complete",
-    text: "🏆 恭喜你！成功協助草薙警官與湯川教授完美破解東野圭吾短篇小說《燃燒》的激光殺人真相！"
+    text: "🏆 恭喜你！成功協助草薙警官與湯川教授完美破解激光殺人真相！"
   }
 ];
 
